@@ -1,0 +1,22 @@
+{
+  "auth": "zef:zero-overhead",
+  "api": "v1",
+  "authors": [
+    "github:rcmlz"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+    "JSON::Fast"
+  ],
+  "description": "Operating System Installation tester",
+  "name": "Raku-Module-Health-Check",
+  "provides": {
+    "Raku-Module-Health-Check": "lib/Raku-Module-Health-Check.rakumod"
+  },
+  "resources": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}

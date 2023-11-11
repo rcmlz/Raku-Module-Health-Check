@@ -1,0 +1,29 @@
+{
+  "depends": [
+    "App::Mi6:auth<zef:skaji>",
+    "App::Prove6:auth<cpan:LEONT>",
+    "App::Workflows::Github:auth<zef:zero-overhead>:api<v1>",
+    "Benchmark:auth<zef:raku-community-modules>",
+    "Data::Summarizers:auth<zef:antononcube>:api<1>",
+    "DOM::Tiny:auth<github:zostay>",
+    "Grammar::Common:auth<zef:raku-community-modules>",
+    "GTK::Simple:auth<zef:finanalyst>",
+    "HTTP::Tiny:auth<zef:jjatria>",
+    "IO::Socket::SSL:auth<github:sergot>",
+    "Jupyter::Chatbook:auth<zef:antononcube>:api<1>",
+    "Log::Timeline:auth<zef:jnthn>",
+    "Math::Matrix:auth<github:pierre-vigier>",
+    "ML::Clustering:auth<zef:antononcube>:api<1>",
+    "Slang::Predicate:auth<cpan:SAMGWISE>",
+    "Terminal::ANSIColor:auth<zef:lizmat>",
+    "Term::TablePrint:auth<zef:kuerbis>",
+    "Text::Plot:auth<zef:antononcube>:api<1>",
+    "Text::Table::Simple:auth<github:ugexe>",
+    "WWW::OpenAI:auth<zef:antononcube>:api<1>"
+  ],
+  "build-depends": [],
+  "test-depends": [
+    "Test::Async:auth<zef:vrurg>",
+    "Test::META:auth<zef:jonathanstowe>:api<1.0>"
+  ]
+}
